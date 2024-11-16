@@ -12,7 +12,7 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(express.urlencoded({ extended: true }))
 const corsOptions = {
-    origin: 'http://localhost:3000', // imp
+    origin: 'https://movie-loom-client.onrender.com', // imp
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }
